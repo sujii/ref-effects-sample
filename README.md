@@ -1,14 +1,4 @@
-# Turborepo starter
-
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+# Turborepo sample
 
 ## What's inside?
 
@@ -37,7 +27,6 @@ This Turborepo has some additional tools already setup for you:
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm build
 ```
 
@@ -46,7 +35,6 @@ pnpm build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
 pnpm dev
 ```
 
@@ -57,7 +45,6 @@ Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
 npx turbo login
 ```
 
